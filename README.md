@@ -491,7 +491,7 @@ The major Admin and Employee modules have been implemented and tested in the loc
 GitHub Repository:
 
 ```text
-[Add your GitHub repository link here]
+https://github.com/durjoydm7/SecuraHR
 ```
 
 ---
