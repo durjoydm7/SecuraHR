@@ -1,0 +1,68 @@
+/* ADMIN DASHBOARD LAYOUT */
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.admin-sidebar {
+  width: 260px;
+  background-color: var(--primary);
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  transition: var(--transition);
+}
+
+.admin-sidebar .brand-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.admin-nav {
+  list-style: none;
+  padding: 1rem 0;
+  flex: 1;
+}
+
+.admin-nav li a {
+  display: flex;
+  align-items: center;
+  padding: 0.875rem 1.5rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 500;
+  gap: 0.875rem;
+}
+
+.admin-nav li a:hover,
+.admin-nav li.active a {
+  color: #FFFFFF;
+  background-color: var(--primary-hover);
+  border-left: 4px solid var(--accent);
+}
+
+.admin-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.admin-header {
+  height: 64px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.admin-content {
+  padding: 2rem;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .admin-layout { flex-direction: column; }
+  .admin-sidebar { width: 100%; }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2A47"/>
+      <stop offset="100%" stop-color="#1E4976"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F28C28"/>
+      <stop offset="100%" stop-color="#FFAB40"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield Icon Base -->
+  <g transform="translate(10, 10)">
+    <path d="M50 5 L90 20 V50 C90 75 50 95 50 95 C50 95 10 75 10 50 V20 Z" fill="url(#brandGrad)" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Gear Inside Shield -->
+    <path d="M50 32 A18 18 0 1 0 50 68 A18 18 0 1 0 50 32 Z M50 43 A7 7 0 1 1 50 57 A7 7 0 1 1 50 43 Z" fill="url(#accentGrad)"/>
+    <path d="M50 25 V31 M50 69 V75 M25 50 H31 M69 50 H75 M32 32 L36 36 M64 64 L68 68 M32 68 L36 64 M64 36 L68 32" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Typography -->
+  <text x="120" y="58" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="38" fill="#0F2A47" letter-spacing="0.5">SECURA<tspan fill="#F28C28">HR</tspan></text>
+  <text x="122" y="82" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="600" font-size="14" fill="#64748B" letter-spacing="3">DDM INDUSTRIES LTD.</text>
+</svg>
